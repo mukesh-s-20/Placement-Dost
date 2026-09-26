@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 
-import { connectDB } from './config/db.js';
+import { connectPostgres, isPostgresConnected } from './config/postgres.js';
 import { seedDatabase } from './data/seed.js';
 import { POINTS_CONFIG, TRACKS } from './config/pointsConfig.js';
 import { RUBRIC_DIMENSIONS } from './config/rubricConfig.js';
@@ -78,10 +78,9 @@ let dbInitialized = false;
 
 const initializeDatabase = async () => {
   if (!dbInitialized) {
-    await connectDB();
+    await connectPostgres();
     await seedDatabase();
     dbInitialized = true;
-    console.log('Database initialized');
   }
 };
 
@@ -96,6 +95,7 @@ app.get('/api/health', async (req, res) => {
     res.json({
       status: 'online',
       app: 'Placement Dost - AI-Personalized Placement Prep Platform',
+      database: isPostgresConnected ? 'PostgreSQL' : 'Local JSON Store (Fallback)',
       timestamp: new Date().toISOString()
     });
   } catch (error) {

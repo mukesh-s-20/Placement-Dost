@@ -9,8 +9,8 @@
       "department": "Computer Science & Engineering",
       "interestArea": "Machine Learning & AI",
       "topCareerChoice": "AI Research Scientist",
-      "points": 345,
-      "streakDaily": 14,
+      "points": 340,
+      "streakDaily": 17,
       "streakWeekly": 4,
       "comprehensionBaseline": 94,
       "baselineCompleted": true,
@@ -22,9 +22,9 @@
       },
       "role": "peer_mentor",
       "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=rohan",
-      "freeExitsRemaining": 1,
-      "exitCountToday": 2,
-      "updatedAt": "2026-09-26T07:35:33.681Z",
+      "freeExitsRemaining": 0,
+      "exitCountToday": 5,
+      "updatedAt": "2026-09-26T08:18:26.475Z",
       "topicProficiencies.Binary Search Trees & Balancing": 85
     },
     {
@@ -36,7 +36,7 @@
       "department": "Computer Science & Engineering",
       "interestArea": "Data Structures & Algorithms",
       "topCareerChoice": "SDE (Tier-1)",
-      "points": 315,
+      "points": 335,
       "streakDaily": 11,
       "streakWeekly": 3,
       "comprehensionBaseline": 92,
@@ -49,7 +49,7 @@
       },
       "role": "peer_mentor",
       "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=aarav",
-      "updatedAt": "2026-09-26T07:10:42.974Z"
+      "updatedAt": "2026-09-26T08:15:48.771Z"
     },
     {
       "id": "usr_kavya",
@@ -468,7 +468,7 @@
               "moduleId": "mod_dsa_2",
               "title": "Tree Traversals & BST Properties Flashcards",
               "type": "flashcard",
-              "status": "unlocked",
+              "status": "completed",
               "flashcards": [
                 {
                   "id": "fc_dsa1",
@@ -547,8 +547,9 @@
           ]
         }
       ],
-      "progressPercent": 0,
-      "createdAt": "2026-09-26T07:08:25.623Z"
+      "progressPercent": 17,
+      "createdAt": "2026-09-26T07:08:25.623Z",
+      "updatedAt": "2026-09-26T08:16:31.720Z"
     },
     {
       "id": "roadmap_64678f7e",
@@ -640,6 +641,90 @@
       ],
       "progressPercent": 0,
       "createdAt": "2026-09-26T07:08:27.665Z"
+    },
+    {
+      "id": "roadmap_57fbc166",
+      "userId": "usr_rohan",
+      "track": "cs_fundamentals",
+      "topic": "Machine Learning & AI",
+      "title": "Core CS Foundations for Tier-1 Companies",
+      "stages": [
+        {
+          "stageId": "cs_stage_1",
+          "title": "Operating Systems & Concurrency",
+          "order": 1,
+          "modules": [
+            {
+              "moduleId": "mod_cs_1",
+              "title": "Process vs Threads & Context Switching",
+              "type": "video",
+              "status": "unlocked",
+              "duration": "11 min",
+              "videoUrl": "https://www.youtube.com/embed/4rLW7ZG27gI",
+              "summary": "Memory spaces, PCB, TCB, CPU registers, and context switch costs."
+            },
+            {
+              "moduleId": "mod_cs_2",
+              "title": "Synchronization & Deadlocks Flashcards",
+              "type": "flashcard",
+              "status": "unlocked",
+              "flashcards": [
+                {
+                  "id": "fc_cs1",
+                  "question": "What are Coffman's four deadlock conditions?",
+                  "answer": "1. Mutual Exclusion\n2. Hold & Wait\n3. No Preemption\n4. Circular Wait"
+                },
+                {
+                  "id": "fc_cs2",
+                  "question": "Difference between Mutex and Semaphore?",
+                  "answer": "Mutex is a locking mechanism owned by 1 thread. Semaphore is a signaling mechanism (counting/binary) accessible by any thread."
+                },
+                {
+                  "id": "fc_cs3",
+                  "question": "What causes Thrashing in virtual memory?",
+                  "answer": "When the CPU spends more time swapping pages in/out of swap space than executing instructions due to excessive page faults."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stageId": "cs_stage_2",
+          "title": "DBMS Internals & Indexing",
+          "order": 2,
+          "modules": [
+            {
+              "moduleId": "mod_cs_3",
+              "title": "B+ Trees vs B-Trees in Disk Storage",
+              "type": "video",
+              "status": "unlocked",
+              "duration": "15 min",
+              "videoUrl": "https://www.youtube.com/embed/aZjYr87r1b8",
+              "summary": "Why databases use B+ Trees for range queries and sequential block reads."
+            },
+            {
+              "moduleId": "mod_cs_4",
+              "title": "ACID & Isolation Anomalies",
+              "type": "flashcard",
+              "status": "unlocked",
+              "flashcards": [
+                {
+                  "id": "fc_db1",
+                  "question": "What is a Dirty Read anomaly?",
+                  "answer": "Reading uncommitted data modified by another concurrent transaction that later rolls back."
+                },
+                {
+                  "id": "fc_db2",
+                  "question": "What is a Phantom Read?",
+                  "answer": "A transaction re-executes a query with a range condition and finds new rows inserted by another committed transaction."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "progressPercent": 0,
+      "createdAt": "2026-09-26T08:17:39.270Z"
     }
   ],
   "modules": [],
@@ -679,6 +764,26 @@
       "status": "solved",
       "pointsEarned": 8,
       "solvedAt": "2026-09-26T07:28:56.598Z"
+    },
+    {
+      "id": "prog_494373b2",
+      "userId": "usr_rohan",
+      "problemId": "dsa_01",
+      "difficulty": "Easy",
+      "sourceSheet": "Striver SDE Sheet",
+      "status": "solved",
+      "pointsEarned": 3,
+      "solvedAt": "2026-09-26T08:18:26.471Z"
+    },
+    {
+      "id": "prog_fbbd2d56",
+      "userId": "usr_rohan",
+      "problemId": "dsa_02",
+      "difficulty": "Easy",
+      "sourceSheet": "NeetCode 150",
+      "status": "solved",
+      "pointsEarned": 3,
+      "solvedAt": "2026-09-26T08:15:08.653Z"
     }
   ],
   "dsaProblems": [
@@ -821,6 +926,186 @@
   ],
   "peerSessions": [
     {
+      "id": "peer_ed38352f",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_ananya",
+      "helperName": "Ananya Iyer",
+      "topic": "Binary Search Trees & Rotations",
+      "meetUrl": "https://meet.google.com/abc-defg-hij",
+      "meetCode": "abc-defg-hij",
+      "status": "active",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Needs guidance on core principles and placement interview questions.",
+      "createdAt": "2026-09-26T08:53:54.091Z",
+      "startedAt": "2026-09-26T08:53:54.103Z",
+      "updatedAt": "2026-09-26T08:53:54.122Z"
+    },
+    {
+      "id": "peer_6013b2fd",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/kud-ydjh-tbw",
+      "meetCode": "kud-ydjh-tbw",
+      "status": "active",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:57.947Z",
+      "startedAt": "2026-09-26T08:18:51.750Z",
+      "updatedAt": "2026-09-26T08:18:51.750Z"
+    },
+    {
+      "id": "peer_abe87ef3",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/mrr-vukr-wea",
+      "meetCode": "mrr-vukr-wea",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:57.831Z"
+    },
+    {
+      "id": "peer_5ed7f23a",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/mkl-xpss-sdz",
+      "meetCode": "mkl-xpss-sdz",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:57.706Z"
+    },
+    {
+      "id": "peer_036b636f",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/sov-publ-mgd",
+      "meetCode": "sov-publ-mgd",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:57.553Z"
+    },
+    {
+      "id": "peer_32c63b49",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/jfu-aitr-gxz",
+      "meetCode": "jfu-aitr-gxz",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:56.923Z"
+    },
+    {
+      "id": "peer_af714d72",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/wzp-mpbs-pzb",
+      "meetCode": "wzp-mpbs-pzb",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:56.796Z"
+    },
+    {
+      "id": "peer_9d9f254c",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/ddv-knzm-dxa",
+      "meetCode": "ddv-knzm-dxa",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:56.668Z"
+    },
+    {
+      "id": "peer_5249eacf",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/udk-flbm-bom",
+      "meetCode": "udk-flbm-bom",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:56.525Z"
+    },
+    {
+      "id": "peer_3519722d",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/pfy-zucb-ctc",
+      "meetCode": "pfy-zucb-ctc",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:56.377Z"
+    },
+    {
+      "id": "peer_7bfe7e17",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "meetUrl": "https://meet.google.com/sws-nsyz-hml",
+      "meetCode": "sws-nsyz-hml",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T08:15:53.493Z"
+    },
+    {
       "id": "peer_00de79be",
       "helpeeId": "user_a457aac1",
       "helpeeName": "Google Student",
@@ -845,14 +1130,17 @@
       "helperId": "usr_aarav",
       "helperName": "Aarav Sharma",
       "topic": "Binary Search Trees & Balancing",
-      "status": "requested",
-      "helperPointsAwarded": 0,
+      "status": "completed",
+      "helperPointsAwarded": 20,
       "remediationScoreBefore": 94,
-      "remediationScoreAfter": null,
+      "remediationScoreAfter": 85,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
       "createdAt": "2026-09-26T07:35:44.438Z",
       "meetUrl": "https://meet.google.com/tep-jnov-yao",
-      "meetCode": "tep-jnov-yao"
+      "meetCode": "tep-jnov-yao",
+      "startedAt": "2026-09-26T08:15:24.531Z",
+      "updatedAt": "2026-09-26T08:15:48.772Z",
+      "completedAt": "2026-09-26T08:15:48.772Z"
     },
     {
       "id": "peer_efd2c7ff",
@@ -1058,6 +1346,69 @@
     }
   ],
   "pointsLedger": [
+    {
+      "id": "entry_25e151b8",
+      "userId": "usr_rohan",
+      "action": "SOLVE_DSA_EASY",
+      "pointsDelta": 3,
+      "balanceAfter": 340,
+      "description": "Solved Easy DSA problem: dsa_01 (+3 pts)",
+      "createdAt": "2026-09-26T08:18:26.474Z"
+    },
+    {
+      "id": "entry_25a0e4dd",
+      "userId": "usr_rohan",
+      "action": "FOCUS_MODE_EARLY_EXIT_FEE",
+      "pointsDelta": -10,
+      "balanceAfter": 337,
+      "description": "Early exit fee (5th exit today, left during Track: DSA)",
+      "createdAt": "2026-09-26T08:17:56.852Z"
+    },
+    {
+      "id": "entry_83f10eea",
+      "userId": "usr_rohan",
+      "action": "FOCUS_MODE_EARLY_EXIT_FEE",
+      "pointsDelta": -5,
+      "balanceAfter": 347,
+      "description": "Early exit fee (4th exit today, left during Track: CS_FUNDAMENTALS)",
+      "createdAt": "2026-09-26T08:17:45.455Z"
+    },
+    {
+      "id": "entry_377abe37",
+      "userId": "usr_rohan",
+      "action": "COMPLETE_SUBMODULE",
+      "pointsDelta": 1,
+      "balanceAfter": 352,
+      "description": "Completed sub-module: mod_dsa_2",
+      "createdAt": "2026-09-26T08:16:31.723Z"
+    },
+    {
+      "id": "entry_a32a82d6",
+      "userId": "usr_aarav",
+      "action": "PEER_TUTOR_SESSION_COMPLETE",
+      "pointsDelta": 20,
+      "balanceAfter": 335,
+      "description": "Mentored Rohan Verma on Binary Search Trees & Balancing (+20 pts including performance improvement bonus)",
+      "createdAt": "2026-09-26T08:15:48.771Z"
+    },
+    {
+      "id": "entry_6f302346",
+      "userId": "usr_rohan",
+      "action": "SOLVE_DSA_EASY",
+      "pointsDelta": 3,
+      "balanceAfter": 351,
+      "description": "Solved Easy DSA problem: dsa_02 (+3 pts)",
+      "createdAt": "2026-09-26T08:15:08.655Z"
+    },
+    {
+      "id": "entry_88eb7ca5",
+      "userId": "usr_rohan",
+      "action": "SOLVE_DSA_EASY",
+      "pointsDelta": 3,
+      "balanceAfter": 348,
+      "description": "Solved Easy DSA problem: dsa_01 (+3 pts)",
+      "createdAt": "2026-09-26T08:15:03.822Z"
+    },
     {
       "id": "entry_cd5abd20",
       "userId": "usr_kavya",

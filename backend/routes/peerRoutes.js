@@ -69,7 +69,7 @@ router.post('/start', async (req, res) => {
     const existing = sessions.find(s => s.id === sessionId);
     if (!existing) return res.status(404).json({ error: 'Session not found' });
 
-    const meetUrl = customMeetUrl || existing.meetUrl || Repository.generateGoogleMeetUrl(sessionId);
+    const meetUrl = customMeetUrl || existing.meetUrl || 'https://meet.google.com/new';
 
     const updated = await Repository.updatePeerSession(sessionId, {
       status: 'active',
@@ -83,8 +83,26 @@ router.post('/start', async (req, res) => {
       success: true,
       session: updated,
       meetUrl: updated.meetUrl,
-      message: 'Peer learning session is now active. Connecting to Google Meet room...'
+      message: 'Peer learning session is now active. Launching Google Meet...'
     });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Update or paste customized Google Meet link
+router.post('/update-meet', async (req, res) => {
+  try {
+    const { sessionId, meetUrl } = req.body;
+    if (!sessionId || !meetUrl) {
+      return res.status(400).json({ error: 'sessionId and meetUrl are required' });
+    }
+    const cleanUrl = meetUrl.trim().startsWith('http') ? meetUrl.trim() : `https://${meetUrl.trim()}`;
+    const updated = await Repository.updatePeerSession(sessionId, {
+      meetUrl: cleanUrl,
+      meetCode: cleanUrl.replace('https://meet.google.com/', '')
+    });
+    res.json({ success: true, session: updated, message: 'Google Meet link updated successfully' });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
