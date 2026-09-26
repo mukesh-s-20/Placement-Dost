@@ -64,13 +64,27 @@ router.post('/request', async (req, res) => {
 // Accept and start a peer session
 router.post('/start', async (req, res) => {
   try {
-    const { sessionId } = req.body;
+    const { sessionId, customMeetUrl } = req.body;
+    const sessions = await Repository.getPeerSessions();
+    const existing = sessions.find(s => s.id === sessionId);
+    if (!existing) return res.status(404).json({ error: 'Session not found' });
+
+    const meetUrl = customMeetUrl || existing.meetUrl || Repository.generateGoogleMeetUrl(sessionId);
+
     const updated = await Repository.updatePeerSession(sessionId, {
       status: 'active',
+      meetUrl,
+      meetCode: meetUrl.replace('https://meet.google.com/', ''),
       startedAt: new Date().toISOString()
     });
+
     if (!updated) return res.status(404).json({ error: 'Session not found' });
-    res.json({ session: updated, message: 'Peer learning session is now active' });
+    res.json({
+      success: true,
+      session: updated,
+      meetUrl: updated.meetUrl,
+      message: 'Peer learning session is now active. Connecting to Google Meet room...'
+    });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

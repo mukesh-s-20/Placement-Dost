@@ -110,11 +110,22 @@ const startServer = async () => {
   await connectDB();
   await seedDatabase();
 
-  app.listen(PORT, () => {
+  const server = app.listen(PORT, () => {
     console.log(`=======================================================`);
     console.log(`🚀 Placement Dost API Server running on port ${PORT}`);
     console.log(`📍 Endpoint: http://localhost:${PORT}/api/health`);
     console.log(`=======================================================`);
+  });
+
+  server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+      console.error(`\n⚠️ Port ${PORT} is already in use by another running instance.`);
+      console.error(`👉 To free port ${PORT}, run this in PowerShell:`);
+      console.error(`   Get-Process -Id (Get-NetTCPConnection -LocalPort ${PORT} -ErrorAction SilentlyContinue).OwningProcess -ErrorAction SilentlyContinue | Stop-Process -Force\n`);
+      process.exit(1);
+    } else {
+      console.error('Server error:', err);
+    }
   });
 };
 

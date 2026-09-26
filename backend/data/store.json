@@ -821,6 +821,24 @@
   ],
   "peerSessions": [
     {
+      "id": "peer_00de79be",
+      "helpeeId": "user_a457aac1",
+      "helpeeName": "Google Student",
+      "helperId": "usr_ananya",
+      "helperName": "Ananya Iyer",
+      "topic": "Binary Search Trees & Rotations",
+      "meetUrl": "https://meet.google.com/ksr-nrlt-alf",
+      "meetCode": "ksr-nrlt-alf",
+      "status": "active",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 50,
+      "remediationScoreAfter": null,
+      "notes": "Needs guidance on core principles and placement interview questions.",
+      "createdAt": "2026-09-26T07:41:04.322Z",
+      "startedAt": "2026-09-26T07:41:04.331Z",
+      "updatedAt": "2026-09-26T07:41:04.331Z"
+    },
+    {
       "id": "peer_1cfa7e56",
       "helpeeId": "usr_rohan",
       "helpeeName": "Rohan Verma",
@@ -832,7 +850,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:35:44.438Z"
+      "createdAt": "2026-09-26T07:35:44.438Z",
+      "meetUrl": "https://meet.google.com/tep-jnov-yao",
+      "meetCode": "tep-jnov-yao"
     },
     {
       "id": "peer_efd2c7ff",
@@ -849,7 +869,9 @@
       "createdAt": "2026-09-26T07:35:25.123Z",
       "startedAt": "2026-09-26T07:35:26.629Z",
       "updatedAt": "2026-09-26T07:35:33.679Z",
-      "completedAt": "2026-09-26T07:35:33.679Z"
+      "completedAt": "2026-09-26T07:35:33.679Z",
+      "meetUrl": "https://meet.google.com/rps-fipi-qgw",
+      "meetCode": "rps-fipi-qgw"
     },
     {
       "id": "peer_7d69f0a1",
@@ -865,7 +887,9 @@
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
       "createdAt": "2026-09-26T07:35:24.905Z",
       "startedAt": "2026-09-26T07:35:35.763Z",
-      "updatedAt": "2026-09-26T07:35:35.763Z"
+      "updatedAt": "2026-09-26T07:35:35.763Z",
+      "meetUrl": "https://meet.google.com/oyo-ytak-uqs",
+      "meetCode": "oyo-ytak-uqs"
     },
     {
       "id": "peer_9b2c85e2",
@@ -879,7 +903,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:35:24.548Z"
+      "createdAt": "2026-09-26T07:35:24.548Z",
+      "meetUrl": "https://meet.google.com/bln-hjjt-tyf",
+      "meetCode": "bln-hjjt-tyf"
     },
     {
       "id": "peer_77647a6d",
@@ -893,7 +919,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:35:22.189Z"
+      "createdAt": "2026-09-26T07:35:22.189Z",
+      "meetUrl": "https://meet.google.com/kum-xomu-hpv",
+      "meetCode": "kum-xomu-hpv"
     },
     {
       "id": "peer_a49b4ceb",
@@ -907,7 +935,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:35:20.971Z"
+      "createdAt": "2026-09-26T07:35:20.971Z",
+      "meetUrl": "https://meet.google.com/rup-tlfv-ilg",
+      "meetCode": "rup-tlfv-ilg"
     },
     {
       "id": "peer_92ac530e",
@@ -924,7 +954,9 @@
       "createdAt": "2026-09-26T07:10:34.893Z",
       "startedAt": "2026-09-26T07:10:37.552Z",
       "updatedAt": "2026-09-26T07:10:42.977Z",
-      "completedAt": "2026-09-26T07:10:42.977Z"
+      "completedAt": "2026-09-26T07:10:42.977Z",
+      "meetUrl": "https://meet.google.com/sir-ubhy-ivc",
+      "meetCode": "sir-ubhy-ivc"
     },
     {
       "id": "peer_15beb3fc",
@@ -938,7 +970,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:10:34.672Z"
+      "createdAt": "2026-09-26T07:10:34.672Z",
+      "meetUrl": "https://meet.google.com/ubh-ivco-bii",
+      "meetCode": "ubh-ivco-bii"
     },
     {
       "id": "peer_00a91ec5",
@@ -952,7 +986,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:10:33.663Z"
+      "createdAt": "2026-09-26T07:10:33.663Z",
+      "meetUrl": "https://meet.google.com/spy-gvhz-fpk",
+      "meetCode": "spy-gvhz-fpk"
     },
     {
       "id": "peer_45c86fce",
@@ -966,7 +1002,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:09:19.136Z"
+      "createdAt": "2026-09-26T07:09:19.136Z",
+      "meetUrl": "https://meet.google.com/daw-vzrb-tyx",
+      "meetCode": "daw-vzrb-tyx"
     },
     {
       "id": "peer_80139237",
@@ -980,7 +1018,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:09:18.015Z"
+      "createdAt": "2026-09-26T07:09:18.015Z",
+      "meetUrl": "https://meet.google.com/vdp-zmnh-oub",
+      "meetCode": "vdp-zmnh-oub"
     },
     {
       "id": "peer_de987286",
@@ -994,7 +1034,9 @@
       "remediationScoreBefore": 94,
       "remediationScoreAfter": null,
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
-      "createdAt": "2026-09-26T07:09:14.031Z"
+      "createdAt": "2026-09-26T07:09:14.031Z",
+      "meetUrl": "https://meet.google.com/eyd-wnox-wnt",
+      "meetCode": "eyd-wnox-wnt"
     },
     {
       "id": "peer_fdc0f8ae",
@@ -1010,7 +1052,9 @@
       "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
       "createdAt": "2026-09-26T07:08:51.952Z",
       "startedAt": "2026-09-26T07:08:54.555Z",
-      "updatedAt": "2026-09-26T07:08:54.555Z"
+      "updatedAt": "2026-09-26T07:08:54.555Z",
+      "meetUrl": "https://meet.google.com/mos-cwqh-xqa",
+      "meetCode": "mos-cwqh-xqa"
     }
   ],
   "pointsLedger": [

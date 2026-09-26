@@ -228,15 +228,38 @@ export class Repository {
   }
 
   // PEER SESSIONS
+  static generateGoogleMeetUrl(sessionId) {
+    const letters = 'abcdefghijklmnopqrstuvwxyz';
+    let seed = sessionId || 'placement-dost';
+    let hash = 0;
+    for (let i = 0; i < seed.length; i++) {
+      hash = (hash * 31 + seed.charCodeAt(i)) & 0xffffffff;
+    }
+    const getCode = (len, salt) => {
+      let res = '';
+      for (let i = 0; i < len; i++) {
+        const val = Math.abs(Math.sin(hash + salt + i * 17) * 10000);
+        res += letters[Math.floor(val) % letters.length];
+      }
+      return res;
+    };
+    const code = `${getCode(3, 1)}-${getCode(4, 7)}-${getCode(3, 13)}`;
+    return `https://meet.google.com/${code}`;
+  }
+
   static async createPeerSession(data) {
     const sessions = jsonDb.getCollection('peerSessions');
+    const sessionId = `peer_${crypto.randomUUID().slice(0, 8)}`;
+    const meetUrl = data.meetUrl || Repository.generateGoogleMeetUrl(sessionId);
     const session = {
-      id: `peer_${crypto.randomUUID().slice(0, 8)}`,
+      id: sessionId,
       helpeeId: data.helpeeId,
       helpeeName: data.helpeeName,
       helperId: data.helperId,
       helperName: data.helperName,
       topic: data.topic,
+      meetUrl,
+      meetCode: meetUrl.replace('https://meet.google.com/', ''),
       status: 'requested', // requested -> active -> completed
       helperPointsAwarded: 0,
       remediationScoreBefore: data.remediationScoreBefore || 45,
@@ -251,6 +274,13 @@ export class Repository {
 
   static async getPeerSessions(userId) {
     const sessions = jsonDb.getCollection('peerSessions');
+    // Ensure all existing sessions have a valid meetUrl
+    sessions.forEach(s => {
+      if (!s.meetUrl) {
+        s.meetUrl = Repository.generateGoogleMeetUrl(s.id);
+        s.meetCode = s.meetUrl.replace('https://meet.google.com/', '');
+      }
+    });
     if (!userId) return sessions;
     return sessions.filter(s => s.helpeeId === userId || s.helperId === userId);
   }
@@ -259,7 +289,15 @@ export class Repository {
     const sessions = jsonDb.getCollection('peerSessions');
     const idx = sessions.findIndex(s => s.id === sessionId);
     if (idx === -1) return null;
-    sessions[idx] = { ...sessions[idx], ...updates, updatedAt: new Date().toISOString() };
+    const existing = sessions[idx];
+    const meetUrl = updates.meetUrl || existing.meetUrl || Repository.generateGoogleMeetUrl(sessionId);
+    sessions[idx] = {
+      ...existing,
+      ...updates,
+      meetUrl,
+      meetCode: meetUrl.replace('https://meet.google.com/', ''),
+      updatedAt: new Date().toISOString()
+    };
     jsonDb.save();
     return sessions[idx];
   }
