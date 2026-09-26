@@ -1,0 +1,21 @@
+{
+  "name": "placement-dost",
+  "version": "1.0.0",
+  "description": "Placement Dost — AI-Personalized Placement Prep Platform",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "placement-prep",
+    "ai",
+    "gamification",
+    "peer-learning",
+    "dsa",
+    "cit"
+  ],
+  "author": "",
+  "license": "MIT"
+}

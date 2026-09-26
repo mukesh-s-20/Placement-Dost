@@ -1,0 +1,1144 @@
+{
+  "users": [
+    {
+      "id": "usr_rohan",
+      "_id": "usr_rohan",
+      "name": "Rohan Verma",
+      "email": "rohan.v@iitm.ac.in",
+      "college": "IIT Madras",
+      "department": "Computer Science & Engineering",
+      "interestArea": "Machine Learning & AI",
+      "topCareerChoice": "AI Research Scientist",
+      "points": 345,
+      "streakDaily": 14,
+      "streakWeekly": 4,
+      "comprehensionBaseline": 94,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "ml_basics": 96,
+        "binary_search_trees": 92,
+        "operating_systems": 95,
+        "graph_algorithms": 90
+      },
+      "role": "peer_mentor",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=rohan",
+      "freeExitsRemaining": 1,
+      "exitCountToday": 2,
+      "updatedAt": "2026-09-26T07:35:33.681Z",
+      "topicProficiencies.Binary Search Trees & Balancing": 85
+    },
+    {
+      "id": "usr_aarav",
+      "_id": "usr_aarav",
+      "name": "Aarav Sharma",
+      "email": "aarav.s@citchennai.net",
+      "college": "Chennai Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "interestArea": "Data Structures & Algorithms",
+      "topCareerChoice": "SDE (Tier-1)",
+      "points": 315,
+      "streakDaily": 11,
+      "streakWeekly": 3,
+      "comprehensionBaseline": 92,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "ml_basics": 92,
+        "binary_search_trees": 95,
+        "database_internals": 88,
+        "system_design": 91
+      },
+      "role": "peer_mentor",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=aarav",
+      "updatedAt": "2026-09-26T07:10:42.974Z"
+    },
+    {
+      "id": "usr_kavya",
+      "_id": "usr_kavya",
+      "name": "Kavya Patel",
+      "email": "kavya.p@citchennai.net",
+      "college": "Chennai Institute of Technology",
+      "department": "Artificial Intelligence & Data Science",
+      "interestArea": "Machine Learning & AI",
+      "topCareerChoice": "Machine Learning Engineer",
+      "points": 285,
+      "streakDaily": 9,
+      "streakWeekly": 2,
+      "comprehensionBaseline": 91,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "ml_basics": 94,
+        "graph_algorithms": 88,
+        "aptitude_probability": 92
+      },
+      "role": "peer_mentor",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=kavya",
+      "updatedAt": "2026-09-26T07:35:33.678Z"
+    },
+    {
+      "id": "usr_ananya",
+      "_id": "usr_ananya",
+      "name": "Ananya Iyer",
+      "email": "ananya.i@iitm.ac.in",
+      "college": "IIT Madras",
+      "department": "Information Technology",
+      "interestArea": "Full Stack & System Design",
+      "topCareerChoice": "Cloud Solutions Architect",
+      "points": 240,
+      "streakDaily": 8,
+      "streakWeekly": 2,
+      "comprehensionBaseline": 84,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "system_design": 95,
+        "database_internals": 92
+      },
+      "role": "peer_mentor",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=ananya"
+    },
+    {
+      "id": "usr_deepak",
+      "_id": "usr_deepak",
+      "name": "Deepak Raj",
+      "email": "deepak.r@citchennai.net",
+      "college": "Chennai Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "interestArea": "Data Structures & Algorithms",
+      "topCareerChoice": "SDE (Tier-1)",
+      "points": 215,
+      "streakDaily": 6,
+      "streakWeekly": 2,
+      "comprehensionBaseline": 78,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "binary_search_trees": 85,
+        "operating_systems": 82
+      },
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=deepak"
+    },
+    {
+      "id": "usr_vikram",
+      "_id": "usr_vikram",
+      "name": "Vikram Nair",
+      "email": "vikram.n@pilani.bits-pilani.ac.in",
+      "college": "BITS Pilani",
+      "department": "Computer Science",
+      "interestArea": "Operating Systems & Networks",
+      "topCareerChoice": "Systems Engineer",
+      "points": 195,
+      "streakDaily": 5,
+      "streakWeekly": 1,
+      "comprehensionBaseline": 82,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "operating_systems": 94,
+        "system_design": 87
+      },
+      "role": "peer_mentor",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=vikram"
+    },
+    {
+      "id": "usr_siddharth",
+      "_id": "usr_siddharth",
+      "name": "Siddharth Menon",
+      "email": "siddharth.m@annauniv.edu",
+      "college": "Anna University",
+      "department": "Information Technology",
+      "interestArea": "Aptitude & Logical Reasoning",
+      "topCareerChoice": "Quantitative Analyst",
+      "points": 180,
+      "streakDaily": 4,
+      "streakWeekly": 1,
+      "comprehensionBaseline": 80,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "aptitude_probability": 96
+      },
+      "role": "peer_mentor",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=siddharth"
+    },
+    {
+      "id": "user_b2bcfe6b",
+      "_id": "user_5c77bc37",
+      "name": "abc",
+      "email": "abc@iitmadras.edu",
+      "age": 18,
+      "college": "IIT Madras",
+      "department": "Artificial Intelligence & Data Science",
+      "interestArea": "Machine Learning & AI",
+      "topCareerChoice": "AI Engineer",
+      "keyInterestTopics": [
+        "Supervised Learning",
+        "Loss Minimization",
+        "Model Generalization"
+      ],
+      "points": 20,
+      "streakDaily": 1,
+      "streakWeekly": 1,
+      "lastLoginDate": "2026-09-26T06:52:27.520Z",
+      "freeExitsRemaining": 3,
+      "exitCountToday": 0,
+      "comprehensionBaseline": 0,
+      "baselineCompleted": false,
+      "topicProficiencies": {},
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=abc",
+      "createdAt": "2026-09-26T06:52:27.520Z",
+      "updatedAt": "2026-09-26T06:52:27.521Z"
+    },
+    {
+      "id": "user_3c120d0d",
+      "_id": "user_99d12f12",
+      "name": "Mukesh S",
+      "email": "mukeshs@bitspilani.edu",
+      "age": 19,
+      "college": "BITS Pilani",
+      "department": "Artificial Intelligence & Data Science",
+      "interestArea": "Machine Learning & AI",
+      "topCareerChoice": "AI Engineer",
+      "keyInterestTopics": [
+        "Supervised Learning",
+        "Loss Minimization",
+        "Model Generalization"
+      ],
+      "points": 20,
+      "streakDaily": 1,
+      "streakWeekly": 1,
+      "lastLoginDate": "2026-09-26T07:11:32.071Z",
+      "freeExitsRemaining": 3,
+      "exitCountToday": 0,
+      "comprehensionBaseline": 0,
+      "baselineCompleted": false,
+      "topicProficiencies": {},
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Mukesh%20S",
+      "createdAt": "2026-09-26T07:11:32.071Z",
+      "updatedAt": "2026-09-26T07:11:32.071Z"
+    },
+    {
+      "id": "user_9804babf",
+      "_id": "user_2684b94f",
+      "name": "John",
+      "email": "john@chennaiinstituteoftechnology.edu",
+      "age": 20,
+      "college": "Chennai Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "interestArea": "Machine Learning & AI",
+      "topCareerChoice": "AI Engineer",
+      "keyInterestTopics": [
+        "Supervised Learning",
+        "Loss Minimization",
+        "Model Generalization"
+      ],
+      "points": 25,
+      "streakDaily": 1,
+      "streakWeekly": 1,
+      "lastLoginDate": "2026-09-26T07:12:35.370Z",
+      "freeExitsRemaining": 3,
+      "exitCountToday": 0,
+      "comprehensionBaseline": 33,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "ml_basics": 33
+      },
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=John",
+      "createdAt": "2026-09-26T07:12:35.370Z",
+      "updatedAt": "2026-09-26T07:13:38.968Z"
+    },
+    {
+      "id": "user_a457aac1",
+      "_id": "user_2423c7de",
+      "name": "Google Student",
+      "email": "googlestudent@cit.edu",
+      "age": 20,
+      "college": "Chennai Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "interestArea": "Data Structures & Algorithms",
+      "topCareerChoice": "SDE (Tier-1)",
+      "keyInterestTopics": [
+        "Binary Search Trees",
+        "Graph Algorithms",
+        "System Design"
+      ],
+      "points": 30,
+      "streakDaily": 1,
+      "streakWeekly": 1,
+      "lastLoginDate": "2026-09-26T07:24:50.211Z",
+      "freeExitsRemaining": 3,
+      "exitCountToday": 0,
+      "comprehensionBaseline": 0,
+      "baselineCompleted": false,
+      "topicProficiencies": {},
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Student",
+      "createdAt": "2026-09-26T07:24:50.211Z",
+      "updatedAt": "2026-09-26T07:24:50.212Z"
+    },
+    {
+      "id": "user_b72eee5f",
+      "_id": "user_36c16443",
+      "name": "Verification Student",
+      "email": "verify@cit.edu",
+      "age": 20,
+      "college": "Chennai Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "interestArea": "Data Structures & Algorithms",
+      "topCareerChoice": "SDE (Tier-1)",
+      "keyInterestTopics": [
+        "Binary Search Trees",
+        "Graph Algorithms",
+        "System Design"
+      ],
+      "points": 38,
+      "streakDaily": 2,
+      "streakWeekly": 1,
+      "lastLoginDate": "2026-09-26T07:28:56.528Z",
+      "freeExitsRemaining": 0,
+      "exitCountToday": 4,
+      "comprehensionBaseline": 75,
+      "baselineCompleted": true,
+      "topicProficiencies": {
+        "ml_basics": 75
+      },
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Verification%20Student",
+      "createdAt": "2026-09-26T07:28:56.528Z",
+      "updatedAt": "2026-09-26T07:28:56.602Z"
+    },
+    {
+      "id": "user_57e01b6f",
+      "_id": "user_75204da9",
+      "name": "Mukesh S (CIT Student)",
+      "email": "mukesh.s@citchennai.net",
+      "age": 20,
+      "college": "Chennai Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "interestArea": "Data Structures & Algorithms",
+      "topCareerChoice": "SDE (Tier-1)",
+      "keyInterestTopics": [
+        "Binary Search Trees",
+        "Graph Algorithms",
+        "System Design"
+      ],
+      "points": 30,
+      "streakDaily": 1,
+      "streakWeekly": 1,
+      "lastLoginDate": "2026-09-26T07:34:32.455Z",
+      "freeExitsRemaining": 3,
+      "exitCountToday": 0,
+      "comprehensionBaseline": 0,
+      "baselineCompleted": false,
+      "topicProficiencies": {},
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Mukesh%20S%20(CIT%20Student)",
+      "createdAt": "2026-09-26T07:34:32.455Z",
+      "updatedAt": "2026-09-26T07:34:32.456Z"
+    },
+    {
+      "id": "user_eced7805",
+      "_id": "user_4a13b88d",
+      "name": "Student Engineer",
+      "email": "student@citchennai.net",
+      "age": 20,
+      "college": "Chennai Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "interestArea": "Data Structures & Algorithms",
+      "topCareerChoice": "SDE (Tier-1)",
+      "keyInterestTopics": [
+        "Binary Search Trees",
+        "Graph Algorithms",
+        "System Design"
+      ],
+      "points": 30,
+      "streakDaily": 1,
+      "streakWeekly": 1,
+      "lastLoginDate": "2026-09-26T07:34:56.557Z",
+      "freeExitsRemaining": 3,
+      "exitCountToday": 0,
+      "comprehensionBaseline": 0,
+      "baselineCompleted": false,
+      "topicProficiencies": {},
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Student%20Engineer",
+      "createdAt": "2026-09-26T07:34:56.557Z",
+      "updatedAt": "2026-09-26T07:34:56.558Z"
+    }
+  ],
+  "assessmentResults": [
+    {
+      "id": "assess_a2c9fb42",
+      "userId": "usr_aarav",
+      "topic": "ml_basics",
+      "videoId": "ml_intro",
+      "writeUp": "In this video I understood the difference between supervised and unsupervised learning. In supervised learning we have training data with ground truth labels and features. The goal is loss function minimization so the model can achieve good generalization without overfitting or underfitting. We evaluate performance using metrics like accuracy, precision, and recall.",
+      "rubricScores": {
+        "coreConceptAccuracy": 3,
+        "keyTermsUsed": 3,
+        "depth": 2,
+        "clarityCoherence": 3
+      },
+      "totalScore": 11,
+      "normalizedScore": 92,
+      "referenceConcepts": [
+        "Supervised vs Unsupervised learning",
+        "Training data vs Test data and ground truth labels",
+        "Features, targets, and loss function minimization",
+        "Model generalization vs Overfitting / Underfitting",
+        "Evaluation metrics such as accuracy, precision, and recall"
+      ],
+      "feedback": "Strong comprehension! You captured 5 out of 5 core concepts accurately with good technical depth.",
+      "isRemediationCandidate": false,
+      "createdAt": "2026-09-26T06:32:11.616Z"
+    },
+    {
+      "id": "assess_b8a0e5ad",
+      "userId": "user_9804babf",
+      "topic": "ml_basics",
+      "videoId": "Machine Learning Core Architecture & Generalization",
+      "writeUp": "The video is on basic learning of supervised learning\n",
+      "rubricScores": {
+        "coreConceptAccuracy": 2,
+        "keyTermsUsed": 1,
+        "depth": 0,
+        "clarityCoherence": 1
+      },
+      "totalScore": 4,
+      "normalizedScore": 33,
+      "referenceConcepts": [
+        "Supervised vs Unsupervised learning",
+        "Training data vs Test data and ground truth labels",
+        "Features, targets, and loss function minimization",
+        "Model generalization vs Overfitting / Underfitting",
+        "Evaluation metrics such as accuracy, precision, and recall"
+      ],
+      "feedback": "Needs reinforcement. Your response touched briefly on the topic, but missed several core architectural terms. Recommended for remediation review.",
+      "isRemediationCandidate": true,
+      "createdAt": "2026-09-26T07:13:38.966Z"
+    },
+    {
+      "id": "assess_e58f1237",
+      "userId": "user_b72eee5f",
+      "topic": "ml_basics",
+      "videoId": "onboarding_intro",
+      "writeUp": "Supervised learning maps inputs to target outputs using training loss minimization. Overfitting happens when variance is too high and model fails to generalize.",
+      "rubricScores": {
+        "coreConceptAccuracy": 3,
+        "keyTermsUsed": 3,
+        "depth": 1,
+        "clarityCoherence": 2
+      },
+      "totalScore": 9,
+      "normalizedScore": 75,
+      "referenceConcepts": [
+        "Supervised vs Unsupervised learning",
+        "Training data vs Test data and ground truth labels",
+        "Features, targets, and loss function minimization",
+        "Model generalization vs Overfitting / Underfitting",
+        "Evaluation metrics such as accuracy, precision, and recall"
+      ],
+      "feedback": "Strong comprehension! You captured 4 out of 5 core concepts accurately with good technical depth.",
+      "isRemediationCandidate": false,
+      "createdAt": "2026-09-26T07:28:56.538Z"
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": "roadmap_8fe40e8e",
+      "userId": "usr_rohan",
+      "track": "dsa",
+      "topic": "Machine Learning & AI",
+      "title": "DSA Placement Preparation Blueprint",
+      "stages": [
+        {
+          "stageId": "dsa_stage_1",
+          "title": "Stage 1: Trees & Hierarchical Structures",
+          "order": 1,
+          "modules": [
+            {
+              "moduleId": "mod_dsa_1",
+              "title": "Binary Search Tree Balancing & Rotations",
+              "type": "video",
+              "status": "unlocked",
+              "duration": "13 min",
+              "videoUrl": "https://www.youtube.com/embed/vRwi_UcZGjU",
+              "summary": "AVL rotations (LL, RR, LR, RL) and preserving the BST invariant."
+            },
+            {
+              "moduleId": "mod_dsa_2",
+              "title": "Tree Traversals & BST Properties Flashcards",
+              "type": "flashcard",
+              "status": "unlocked",
+              "flashcards": [
+                {
+                  "id": "fc_dsa1",
+                  "question": "Which traversal yields sorted sequence for a BST?",
+                  "answer": "In-order traversal (Left, Root, Right)"
+                },
+                {
+                  "id": "fc_dsa2",
+                  "question": "Worst case time complexity to search in unbalanced BST?",
+                  "answer": "O(N) when the tree degenerates into a linked list"
+                },
+                {
+                  "id": "fc_dsa3",
+                  "question": "Height balancing condition for an AVL tree?",
+                  "answer": "Balance factor |Height(Left) - Height(Right)| <= 1 for every node"
+                }
+              ]
+            },
+            {
+              "moduleId": "mod_dsa_3",
+              "title": "Prerequisite Pointer: Recursion Call Stack",
+              "type": "prerequisite",
+              "status": "unlocked",
+              "prerequisiteTopic": "Recursion trees, stack frames, and base cases"
+            }
+          ]
+        },
+        {
+          "stageId": "dsa_stage_2",
+          "title": "Stage 2: Graph Traversals & Shortest Paths",
+          "order": 2,
+          "modules": [
+            {
+              "moduleId": "mod_dsa_4",
+              "title": "BFS vs DFS with Cycle Detection",
+              "type": "video",
+              "status": "unlocked",
+              "duration": "16 min",
+              "videoUrl": "https://www.youtube.com/embed/pcKY4hjDrxk",
+              "summary": "Queue-based level-order search vs stack-based depth traversal."
+            },
+            {
+              "moduleId": "mod_dsa_5",
+              "title": "Dijkstra & Topological Sort Flashcards",
+              "type": "flashcard",
+              "status": "unlocked",
+              "flashcards": [
+                {
+                  "id": "fc_g1",
+                  "question": "Can Dijkstra's algorithm handle negative edge weights?",
+                  "answer": "No! Dijkstra fails on negative weights because greedy choice cannot backtrack. Use Bellman-Ford instead."
+                },
+                {
+                  "id": "fc_g2",
+                  "question": "What graph property is required for Topological Sort?",
+                  "answer": "The graph must be a Directed Acyclic Graph (DAG)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stageId": "dsa_stage_3",
+          "title": "Stage 3: Dynamic Programming Patterns",
+          "order": 3,
+          "modules": [
+            {
+              "moduleId": "mod_dsa_6",
+              "title": "0/1 Knapsack & Memoization Blueprint",
+              "type": "video",
+              "status": "unlocked",
+              "duration": "18 min",
+              "videoUrl": "https://www.youtube.com/embed/nLmhmB6NzcM",
+              "summary": "Transitioning from recursive decision tree to bottom-up DP table."
+            }
+          ]
+        }
+      ],
+      "progressPercent": 0,
+      "createdAt": "2026-09-26T07:08:25.623Z"
+    },
+    {
+      "id": "roadmap_64678f7e",
+      "userId": "usr_rohan",
+      "track": "aptitude",
+      "topic": "Machine Learning & AI",
+      "title": "Quantitative & Logical Reasoning Sprint",
+      "stages": [
+        {
+          "stageId": "apt_stage_1",
+          "title": "Arithmetic Foundations & Speed Math",
+          "order": 1,
+          "modules": [
+            {
+              "moduleId": "mod_apt_1",
+              "title": "Percentages, Profit & Loss Shortcuts",
+              "type": "video",
+              "status": "unlocked",
+              "duration": "12 min",
+              "videoUrl": "https://www.youtube.com/embed/HQnzY_i8R1o",
+              "summary": "Core percentage formulas and ratio conversions used in campus placement tests."
+            },
+            {
+              "moduleId": "mod_apt_2",
+              "title": "Ratio, Proportion & Variation Flashcards",
+              "type": "flashcard",
+              "status": "unlocked",
+              "flashcards": [
+                {
+                  "id": "f1",
+                  "question": "What is the compound ratio of a:b and c:d?",
+                  "answer": "ac : bd"
+                },
+                {
+                  "id": "f2",
+                  "question": "If A:B = 2:3 and B:C = 4:5, what is A:B:C?",
+                  "answer": "8 : 12 : 15 (multiply top by 4, bottom by 3)"
+                },
+                {
+                  "id": "f3",
+                  "question": "Formula for finding duplicate ratio of a:b?",
+                  "answer": "a² : b²"
+                }
+              ]
+            },
+            {
+              "moduleId": "mod_apt_3",
+              "title": "Check: Basic Number Theory",
+              "type": "prerequisite",
+              "status": "unlocked",
+              "prerequisiteTopic": "Divisibility rules & prime factorization check"
+            }
+          ]
+        },
+        {
+          "stageId": "apt_stage_2",
+          "title": "Combinatorics & Probability Mastery",
+          "order": 2,
+          "modules": [
+            {
+              "moduleId": "mod_apt_4",
+              "title": "Permutations vs Combinations Visualized",
+              "type": "video",
+              "status": "unlocked",
+              "duration": "14 min",
+              "videoUrl": "https://www.youtube.com/embed/XqQTXW7XfNY",
+              "summary": "Learn when order matters (nPr) vs when only selection matters (nCr)."
+            },
+            {
+              "moduleId": "mod_apt_5",
+              "title": "Conditional Probability & Dice/Cards Flashcards",
+              "type": "flashcard",
+              "status": "unlocked",
+              "flashcards": [
+                {
+                  "id": "f4",
+                  "question": "Formula for P(A | B)?",
+                  "answer": "P(A ∩ B) / P(B)"
+                },
+                {
+                  "id": "f5",
+                  "question": "Independent events definition",
+                  "answer": "P(A ∩ B) = P(A) * P(B)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "progressPercent": 0,
+      "createdAt": "2026-09-26T07:08:27.665Z"
+    }
+  ],
+  "modules": [],
+  "assignments": [
+    {
+      "id": "assign_d520d009",
+      "userId": "user_b72eee5f",
+      "moduleId": "mod_dsa_1",
+      "topic": "Binary Search Trees",
+      "prompt": "Explain AVL tree balancing and time complexity.",
+      "studentSubmission": "In AVL trees, the balance factor is maintained between -1 and 1 using left and right rotations to guarantee O(log N) lookup time.",
+      "referenceConcepts": [
+        "BST property: Left child < Node < Right child",
+        "In-order traversal yielding sorted order",
+        "Time complexity: O(log N) average vs O(N) skewed worst case",
+        "Self-balancing trees (AVL / Red-Black) using tree rotations",
+        "Height balancing factor and search optimization"
+      ],
+      "rubricScores": {
+        "coreConceptAccuracy": 3,
+        "keyTermsUsed": 3,
+        "depth": 0,
+        "clarityCoherence": 2
+      },
+      "hiddenMarks": 67,
+      "struggleDetected": false,
+      "createdAt": "2026-09-26T07:28:56.545Z"
+    }
+  ],
+  "dsaProgress": [
+    {
+      "id": "prog_87c0e5de",
+      "userId": "user_b72eee5f",
+      "problemId": "dsa_1",
+      "difficulty": "Medium",
+      "sourceSheet": "Striver SDE Sheet",
+      "status": "solved",
+      "pointsEarned": 8,
+      "solvedAt": "2026-09-26T07:28:56.598Z"
+    }
+  ],
+  "dsaProblems": [
+    {
+      "id": "dsa_01",
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "topic": "Arrays & Hashing",
+      "sourceSheet": "Striver SDE Sheet",
+      "url": "https://leetcode.com/problems/two-sum/",
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. Use a hash map for O(n) time.",
+      "examples": "Input: nums = [2,7,11,15], target = 9 -> Output: [0,1]",
+      "testCases": [
+        {
+          "input": "nums = [2,7,11,15], target = 9",
+          "expected": "[0, 1]"
+        },
+        {
+          "input": "nums = [3,2,4], target = 6",
+          "expected": "[1, 2]"
+        }
+      ]
+    },
+    {
+      "id": "dsa_02",
+      "title": "Reverse Linked List",
+      "difficulty": "Easy",
+      "topic": "Linked Lists",
+      "sourceSheet": "NeetCode 150",
+      "url": "https://leetcode.com/problems/reverse-linked-list/",
+      "description": "Given the head of a singly linked list, reverse the list, and return the reversed list. Solve iteratively with pointers prev, curr, next in O(1) space.",
+      "examples": "Input: head = [1,2,3,4,5] -> Output: [5,4,3,2,1]",
+      "testCases": [
+        {
+          "input": "head = [1,2,3,4,5]",
+          "expected": "[5,4,3,2,1]"
+        }
+      ]
+    },
+    {
+      "id": "dsa_03",
+      "title": "Maximum Subarray (Kadane’s Algorithm)",
+      "difficulty": "Medium",
+      "topic": "Dynamic Programming / Arrays",
+      "sourceSheet": "Striver SDE Sheet",
+      "url": "https://leetcode.com/problems/maximum-subarray/",
+      "description": "Find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. Maintain running sum and reset when negative.",
+      "examples": "Input: nums = [-2,1,-3,4,-1,2,1,-5,4] -> Output: 6 ([4,-1,2,1])",
+      "testCases": [
+        {
+          "input": "nums = [-2,1,-3,4,-1,2,1,-5,4]",
+          "expected": "6"
+        }
+      ]
+    },
+    {
+      "id": "dsa_04",
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "topic": "Sliding Window",
+      "sourceSheet": "Blind 75",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "description": "Given a string s, find the length of the longest substring without repeating characters using variable size sliding window and hash set.",
+      "examples": "Input: s = \"abcabcbb\" -> Output: 3 (\"abc\")",
+      "testCases": [
+        {
+          "input": "s = \"abcabcbb\"",
+          "expected": "3"
+        },
+        {
+          "input": "s = \"bbbbb\"",
+          "expected": "1"
+        }
+      ]
+    },
+    {
+      "id": "dsa_05",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "difficulty": "Medium",
+      "topic": "Trees",
+      "sourceSheet": "Striver SDE Sheet",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      "description": "Given a BST, find the lowest common ancestor (LCA) node of two given nodes p and q using BST split property in O(h) time.",
+      "examples": "Input: root = [6,2,8,0,4,7,9], p = 2, q = 8 -> Output: 6",
+      "testCases": [
+        {
+          "input": "root = [6,2,8], p = 2, q = 8",
+          "expected": "6"
+        }
+      ]
+    },
+    {
+      "id": "dsa_06",
+      "title": "Merge Intervals",
+      "difficulty": "Medium",
+      "topic": "Intervals",
+      "sourceSheet": "Striver SDE Sheet",
+      "url": "https://leetcode.com/problems/merge-intervals/",
+      "description": "Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals. Sort intervals by start time first.",
+      "examples": "Input: intervals = [[1,3],[2,6],[8,10],[15,18]] -> Output: [[1,6],[8,10],[15,18]]",
+      "testCases": [
+        {
+          "input": "[[1,3],[2,6],[8,10],[15,18]]",
+          "expected": "[[1,6],[8,10],[15,18]]"
+        }
+      ]
+    },
+    {
+      "id": "dsa_07",
+      "title": "Word Ladder",
+      "difficulty": "Hard",
+      "topic": "Graphs & BFS",
+      "sourceSheet": "NeetCode 150",
+      "url": "https://leetcode.com/problems/word-ladder/",
+      "description": "Given two words, beginWord and endWord, and a dictionary wordList, return the number of words in the shortest transformation sequence. Use BFS level-by-level.",
+      "examples": "Input: beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"] -> Output: 5",
+      "testCases": [
+        {
+          "input": "beginWord = \"hit\", endWord = \"cog\"",
+          "expected": "5"
+        }
+      ]
+    },
+    {
+      "id": "dsa_08",
+      "title": "Trapping Rain Water",
+      "difficulty": "Hard",
+      "topic": "Two Pointers",
+      "sourceSheet": "Blind 75",
+      "url": "https://leetcode.com/problems/trapping-rain-water/",
+      "description": "Given n non-negative integers representing an elevation map where width of each bar is 1, compute how much water it can trap after raining.",
+      "examples": "Input: height = [0,1,0,2,1,0,1,3,2,1,2,1] -> Output: 6",
+      "testCases": [
+        {
+          "input": "height = [0,1,0,2,1,0,1,3,2,1,2,1]",
+          "expected": "6"
+        }
+      ]
+    }
+  ],
+  "peerSessions": [
+    {
+      "id": "peer_1cfa7e56",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:35:44.438Z"
+    },
+    {
+      "id": "peer_efd2c7ff",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_kavya",
+      "helperName": "Kavya Patel",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "completed",
+      "helperPointsAwarded": 20,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": 85,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:35:25.123Z",
+      "startedAt": "2026-09-26T07:35:26.629Z",
+      "updatedAt": "2026-09-26T07:35:33.679Z",
+      "completedAt": "2026-09-26T07:35:33.679Z"
+    },
+    {
+      "id": "peer_7d69f0a1",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_kavya",
+      "helperName": "Kavya Patel",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "active",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:35:24.905Z",
+      "startedAt": "2026-09-26T07:35:35.763Z",
+      "updatedAt": "2026-09-26T07:35:35.763Z"
+    },
+    {
+      "id": "peer_9b2c85e2",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_kavya",
+      "helperName": "Kavya Patel",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:35:24.548Z"
+    },
+    {
+      "id": "peer_77647a6d",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:35:22.189Z"
+    },
+    {
+      "id": "peer_a49b4ceb",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:35:20.971Z"
+    },
+    {
+      "id": "peer_92ac530e",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "completed",
+      "helperPointsAwarded": 20,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": 85,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:10:34.893Z",
+      "startedAt": "2026-09-26T07:10:37.552Z",
+      "updatedAt": "2026-09-26T07:10:42.977Z",
+      "completedAt": "2026-09-26T07:10:42.977Z"
+    },
+    {
+      "id": "peer_15beb3fc",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:10:34.672Z"
+    },
+    {
+      "id": "peer_00a91ec5",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:10:33.663Z"
+    },
+    {
+      "id": "peer_45c86fce",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_siddharth",
+      "helperName": "Siddharth Menon",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:09:19.136Z"
+    },
+    {
+      "id": "peer_80139237",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_vikram",
+      "helperName": "Vikram Nair",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:09:18.015Z"
+    },
+    {
+      "id": "peer_de987286",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_ananya",
+      "helperName": "Ananya Iyer",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "requested",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:09:14.031Z"
+    },
+    {
+      "id": "peer_fdc0f8ae",
+      "helpeeId": "usr_rohan",
+      "helpeeName": "Rohan Verma",
+      "helperId": "usr_aarav",
+      "helperName": "Aarav Sharma",
+      "topic": "Binary Search Trees & Balancing",
+      "status": "active",
+      "helperPointsAwarded": 0,
+      "remediationScoreBefore": 94,
+      "remediationScoreAfter": null,
+      "notes": "Peer session requested by Rohan Verma on Binary Search Trees.",
+      "createdAt": "2026-09-26T07:08:51.952Z",
+      "startedAt": "2026-09-26T07:08:54.555Z",
+      "updatedAt": "2026-09-26T07:08:54.555Z"
+    }
+  ],
+  "pointsLedger": [
+    {
+      "id": "entry_cd5abd20",
+      "userId": "usr_kavya",
+      "action": "PEER_TUTOR_SESSION_COMPLETE",
+      "pointsDelta": 20,
+      "balanceAfter": 285,
+      "description": "Mentored Rohan Verma on Binary Search Trees & Balancing (+20 pts including performance improvement bonus)",
+      "createdAt": "2026-09-26T07:35:33.679Z"
+    },
+    {
+      "id": "entry_7e1f9337",
+      "userId": "user_eced7805",
+      "action": "GOOGLE_AUTH_WELCOME",
+      "pointsDelta": 15,
+      "balanceAfter": 30,
+      "description": "Signed up via Google Account! +15 welcome points.",
+      "createdAt": "2026-09-26T07:34:56.558Z"
+    },
+    {
+      "id": "entry_8296b26b",
+      "userId": "user_57e01b6f",
+      "action": "GOOGLE_AUTH_WELCOME",
+      "pointsDelta": 15,
+      "balanceAfter": 30,
+      "description": "Signed up via Google Account! +15 welcome points.",
+      "createdAt": "2026-09-26T07:34:32.456Z"
+    },
+    {
+      "id": "entry_37ca8b7b",
+      "userId": "user_b72eee5f",
+      "action": "SOLVE_DSA_MEDIUM",
+      "pointsDelta": 8,
+      "balanceAfter": 38,
+      "description": "Solved Medium DSA problem: dsa_1 (+8 pts)",
+      "createdAt": "2026-09-26T07:28:56.601Z"
+    },
+    {
+      "id": "entry_b17bf934",
+      "userId": "user_b72eee5f",
+      "action": "FOCUS_MODE_EARLY_EXIT_FEE",
+      "pointsDelta": -5,
+      "balanceAfter": 30,
+      "description": "Early exit fee (4th exit today, left during Learning Space)",
+      "createdAt": "2026-09-26T07:28:56.583Z"
+    },
+    {
+      "id": "entry_b685b941",
+      "userId": "user_b72eee5f",
+      "action": "ONBOARDING_RECALL_COMPLETE",
+      "pointsDelta": 5,
+      "balanceAfter": 35,
+      "description": "Completed video recall comprehension check (75/100 baseline)",
+      "createdAt": "2026-09-26T07:28:56.540Z"
+    },
+    {
+      "id": "entry_73aa3eea",
+      "userId": "user_b72eee5f",
+      "action": "GOOGLE_AUTH_WELCOME",
+      "pointsDelta": 15,
+      "balanceAfter": 30,
+      "description": "Signed up via Google Account! +15 welcome points.",
+      "createdAt": "2026-09-26T07:28:56.529Z"
+    },
+    {
+      "id": "entry_b8714e4f",
+      "userId": "user_a457aac1",
+      "action": "GOOGLE_AUTH_WELCOME",
+      "pointsDelta": 15,
+      "balanceAfter": 30,
+      "description": "Signed up via Google Account! +15 welcome points.",
+      "createdAt": "2026-09-26T07:24:50.213Z"
+    },
+    {
+      "id": "entry_3d68ed88",
+      "userId": "user_9804babf",
+      "action": "ONBOARDING_RECALL_COMPLETE",
+      "pointsDelta": 5,
+      "balanceAfter": 25,
+      "description": "Completed video recall comprehension check (33/100 baseline)",
+      "createdAt": "2026-09-26T07:13:38.969Z"
+    },
+    {
+      "id": "entry_3e1f9535",
+      "userId": "user_9804babf",
+      "action": "WELCOME_BONUS",
+      "pointsDelta": 10,
+      "balanceAfter": 20,
+      "description": "Welcome to Placement Dost! +10 onboarding bonus.",
+      "createdAt": "2026-09-26T07:12:35.371Z"
+    },
+    {
+      "id": "entry_4787a550",
+      "userId": "user_3c120d0d",
+      "action": "WELCOME_BONUS",
+      "pointsDelta": 10,
+      "balanceAfter": 20,
+      "description": "Welcome to Placement Dost! +10 onboarding bonus.",
+      "createdAt": "2026-09-26T07:11:32.072Z"
+    },
+    {
+      "id": "entry_1f9ee29d",
+      "userId": "usr_aarav",
+      "action": "PEER_TUTOR_SESSION_COMPLETE",
+      "pointsDelta": 20,
+      "balanceAfter": 315,
+      "description": "Mentored Rohan Verma on Binary Search Trees & Balancing (+20 pts including performance improvement bonus)",
+      "createdAt": "2026-09-26T07:10:42.976Z"
+    },
+    {
+      "id": "entry_e956cf49",
+      "userId": "user_b2bcfe6b",
+      "action": "WELCOME_BONUS",
+      "pointsDelta": 10,
+      "balanceAfter": 20,
+      "description": "Welcome to Placement Dost! +10 onboarding bonus.",
+      "createdAt": "2026-09-26T06:52:27.521Z"
+    },
+    {
+      "id": "entry_aa812de9",
+      "userId": "usr_aarav",
+      "action": "ONBOARDING_RECALL_COMPLETE",
+      "pointsDelta": 5,
+      "balanceAfter": 295,
+      "description": "Completed video recall comprehension check (92/100 baseline)",
+      "createdAt": "2026-09-26T06:32:11.618Z"
+    }
+  ]
+}
