@@ -1,5 +1,15 @@
 import { jsonDb, isMongoConnected } from '../config/db.js';
 import crypto from 'crypto';
+import {
+  UserModel,
+  AssessmentResultModel,
+  RoadmapModel,
+  ModuleModel,
+  AssignmentModel,
+  DSAProgressModel,
+  PeerSessionModel,
+  PointsLedgerModel
+} from './schemas.js';
 
 export class Repository {
   static getCollection(name) {
@@ -8,15 +18,39 @@ export class Repository {
 
   // USERS
   static async getUsers() {
+    if (isMongoConnected) {
+      try {
+        const mongoUsers = await UserModel.find().lean();
+        if (mongoUsers.length > 0) return mongoUsers;
+      } catch (err) {
+        console.warn('MongoDB query fallback:', err.message);
+      }
+    }
     return jsonDb.getCollection('users');
   }
 
   static async getUserById(id) {
+    if (isMongoConnected) {
+      try {
+        const u = await UserModel.findOne({ $or: [{ id }, { _id: id }] }).lean();
+        if (u) return u;
+      } catch (err) {
+        console.warn('MongoDB query fallback:', err.message);
+      }
+    }
     const users = jsonDb.getCollection('users');
     return users.find(u => u.id === id || u._id === id);
   }
 
   static async getUserByEmail(email) {
+    if (isMongoConnected) {
+      try {
+        const u = await UserModel.findOne({ email: email.toLowerCase() }).lean();
+        if (u) return u;
+      } catch (err) {
+        console.warn('MongoDB query fallback:', err.message);
+      }
+    }
     const users = jsonDb.getCollection('users');
     return users.find(u => u.email?.toLowerCase() === email?.toLowerCase());
   }
@@ -49,6 +83,11 @@ export class Repository {
     };
     users.push(newUser);
     jsonDb.save();
+
+    if (isMongoConnected) {
+      UserModel.create(newUser).catch(err => console.warn('Mongo user sync:', err.message));
+    }
+
     return newUser;
   }
 
@@ -58,6 +97,11 @@ export class Repository {
     if (idx === -1) return null;
     users[idx] = { ...users[idx], ...updates, updatedAt: new Date().toISOString() };
     jsonDb.save();
+
+    if (isMongoConnected) {
+      UserModel.findOneAndUpdate({ $or: [{ id }, { _id: id }] }, updates).catch(err => console.warn('Mongo update sync:', err.message));
+    }
+
     return users[idx];
   }
 
